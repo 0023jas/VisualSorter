@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+body {
+    background-color: #F6F6F6;
+
+}
+
+.headerBox {
+    width: 700px;
+    height: 50px;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+
+}
+
+.headerTitle {
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Sen', sans-serif;
+}
+
+.chartBox {
+    background-color: white;
+    width: 700px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.inputBoxOrganizer {
+    background-color: #F1F1F1;
+    width: 700px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputBox {
+    width: 60%;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+
+.buttonBox {
+    background-color: #F1F1F1;
+    width: 700px;
+    height: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.sortButton {
+    background-color: #00BFFF; /* deepskyblue */
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Sen', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.insertButton {
+    background-color: #00BFFF; /* deepskyblue */
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    font-family: 'Sen', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 50px;
+}

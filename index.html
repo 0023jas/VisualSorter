@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="Chart.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="headerBox">
+        <h1 class="headerTitle">The Magic Sorter</h1>
+    </div>
+    <div class="chartBox">
+        <canvas id="myChart" width="40" height="14"></canvas>
+    </div>
+    <div class="inputBoxOrganizer">
+        <button class="insertButton" id="randomListButton" onclick="randomizeList(maxListLength, numberList)">Randomize Data</button>
+        <input class="inputBox" type="text" value="100" id="numInput"><br>
+        <button class="insertButton" id="insertEntityButton" onclick="insertEntity()">Insert Entity</button>
+        <input class="inputBox" type="text" value="50" id="numAddition"><br>
+    </div>
+    <div class="buttonBox">
+        <button class="sortButton" id="bubbleSortButton" onclick="bubbleSort(numberList)">Bubble Sort</button>
+        <button class="sortButton" id="selectionSortButton" onclick="selectionSort(numberList)">Selection Sort</button>
+        <button class="sortButton" id="mergeSortButton" onclick="mergeSort()">Merge Sort</button>
+    </div>
+</body>
+<script src="script.js"></script>
